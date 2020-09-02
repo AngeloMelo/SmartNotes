@@ -1,0 +1,38 @@
+{
+  "name": "smartnotes",
+  "version": "1.0.0",
+  "description": "MERN APP to save and find notes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "startdev": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \" npm run startdev\" \"npm run client\""
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloMelo/SmartNotes.git"
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Redux",
+    "MongoDB",
+    "one-to-many"
+  ],
+  "author": "Angelo Melo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AngeloMelo/SmartNotes/issues"
+  },
+  "homepage": "https://github.com/AngeloMelo/SmartNotes#readme"
+}
